@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+</head>
+
+<body>
+
+    <h1> Math Game </h1>
+    <h3>What is {{ num1 }} + {{ num2 }}</h3>
+    <p></p>
+    <form action="/game", method="post">
+        <input type="text" name = "answer">
+        <input type="hidden" name = "correct_answer" value = "{{ sum }}">
+        <input type="submit" name = "check">`
+    </form>
+</body>
+
+</html>
